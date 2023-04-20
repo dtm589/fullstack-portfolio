@@ -1,0 +1,112 @@
+.sidebar {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 25%;
+    font-size: 14px;
+    text-align: left;
+    color:#fff;
+    background-color: rgba(145, 13, 13, .8);
+}
+
+.sidebar-inner {
+    position: relative;
+    height: 100%;
+    padding-top: 45px;
+    padding-right: 40px;
+    padding-bottom: 45px;
+    padding-left: 40px;
+}
+
+.person-content {
+    margin-top: 30px;
+    margin-left: -40%;
+    margin-right: -40%;
+    text-align: center;
+}
+
+.person-title {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.person-subtitle {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.navigation {
+    margin: 45px -40px;
+    line-height: 45px;
+    position: relative;
+    font-size: 15px;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    position: relative;
+    padding: 0 40px;
+}
+
+.navigation a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+div {
+    display: block;
+}
+
+body {
+    font: 16px/1.6 "Roboto", Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#intro {
+    background-image: url(../../assets/images/derek-m.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    box-sizing: inherit;
+    position: relative;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 0px;
+    display: block;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#intro .container {
+    color: white;
+    font-weight: 100;
+    font-size: large;
+    left: 50px;
+    position: absolute;
+    top: 50px;
+    width: 95%;
+    padding: 0 1.5rem;
+    box-sizing: inherit;
+
+}

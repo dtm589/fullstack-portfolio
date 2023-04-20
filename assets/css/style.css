@@ -184,3 +184,8 @@ p {
     color: #1695a7;
     text-decoration: none;
 }
+
+img {
+    height: auto;
+    width: 600px;
+}

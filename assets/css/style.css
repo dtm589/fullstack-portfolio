@@ -1,3 +1,7 @@
+* {
+    box-sizing: inherit;
+}
+
 .sidebar {
     top: 0;
     bottom: 0;
@@ -6,7 +10,7 @@
     width: 25%;
     font-size: 14px;
     text-align: left;
-    color:#fff;
+    color: #fff;
     background-color: rgba(145, 13, 13, .8);
 }
 
@@ -101,12 +105,82 @@ body {
 #intro .container {
     color: white;
     font-weight: 100;
-    font-size: large;
-    left: 50px;
+    font-size: 30px;
+    left: 13px;
     position: absolute;
-    top: 50px;
+    top: 3px;
     width: 95%;
     padding: 0 1.5rem;
     box-sizing: inherit;
 
+}
+
+section {
+    padding-bottom: 30px;
+    padding-top: 0;
+}
+
+h3 {
+    background-color: #1695a7;
+    color: #FFFFFF;
+    font-weight: 200;
+    margin-bottom: 60px;
+    margin-top: 0;
+    padding: 30px 40px;
+}
+
+blockquote {
+    border-left: 5px solid rgba(51, 24, 24, 0.514);
+    color: rgba(51, 24, 24, 0.514);
+    font-size: 125%;
+    font-weight: 400;
+    margin: 20px 15px;
+    padding-left: 2.5rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 0px;
+    line-height: 37px;
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+}
+
+.card {
+    margin-bottom: 60px;
+    position: relative;
+    margin: .5rem 0 1rem 0;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Roboto", Helvetica;
+}
+
+.container {
+    width: 95%;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.card-title {
+    line-height: 2.5rem;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-content {
+    padding: 5px 70px 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.hoverline {
+    border-bottom: 3px solid #1695a7;
+    color: #1695a7;
+    text-decoration: none;
 }

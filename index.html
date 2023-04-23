@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <!-- Side Navigation Bar-->
     <aside class="sidebar">
         <div class="sidebar-inner">
             <div class="person-content uppercase">
@@ -35,13 +36,20 @@
     </aside>
 
     <main style="margin-left: 25%;">
+        <!-- Image on top of screen, greyed out, with text on top-->
         <section id="intro" alt="Picture of Derek Marchese">
             <div class="overlay"></div>
             <div class="container-head">
-                <h2>I want to <span style="background-color:#1695a7 ;">develop content</span><br> that <span
+                <h2>Let's <span style="background-color:#1695a7 ;">develop content</span><br> that <span
                         style="border-bottom: 5px solid #1695a7;">makes an impact.</span></h2>
             </div>
         </section>
+        <!-- Horizontal bar under main picture when the screen gets smaller-->
+        <div class="person-content-horizontal uppercase">
+            <h1 class="person-title">Derek Marchese</h1>
+            <h2 class="person-subtitle">Full-Stack Developer</h2>
+        </div>
+        <!-- The about me section-->
         <section id="about-me">
             <h3 class="uppercase">About Me</h3>
             <div>
@@ -66,9 +74,11 @@
                 </p>
             </div>
         </section>
+        <!-- My education section-->
         <section id="education">
             <h3 class="uppercase">Education</h3>
             <div class="container">
+                <!-- Give each item a card to hold the information-->
                 <div class="card">
                     <p class="card-title">
                         <a target="_blank" class="hoverline" href="https://bootcamp.ce.ucf.edu/coding/">University of
@@ -108,9 +118,11 @@
                 </div>
             </div>
         </section>
+        <!-- My projects section-->
         <section id="projects">
             <h3 class="uppercase">Projects</h3>
             <div class="container">
+                <!-- The first app needs to be larger in size-->
                 <div id="first-app" class="card">
                     <p class="card-title">
                         <a target="_blank" class="hoverline"
@@ -118,7 +130,7 @@
                     </p>
                     <p class="card-title">
                         <a target="_blank" href="https://dtm589.github.io/horiseon-webpage/"><img style="width: 550px;"
-                                src="assets\images\horiseon.PNG"></a>
+                                src="assets\images\horiseon.PNG" alt="Screenshot of the deployed website"></a>
                     </p>
                     <p class="card-content">
                         Created a mock website for a company called Horiseon. Focused on web layout and design using
@@ -158,6 +170,7 @@
                         More content on the way!
                     </p>
         </section>
+        <!-- Contact me section-->
         <section id="contact-me">
             <h3 class="uppercase">Contact Me</h3>
             <div class="contact-container">
